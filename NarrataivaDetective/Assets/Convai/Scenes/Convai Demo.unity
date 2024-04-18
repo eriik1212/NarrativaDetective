@@ -323,17 +323,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 32.4, y: -163.64, z: 0}
---- !u!114 &1885372598 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4194960382806448509, guid: d48e039e0643fd848beb10345244dda6, type: 3}
-  m_PrefabInstance: {fileID: 2017306214500499884}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b38e4bc919e1f040ba78aea7472893e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2017306214500499884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -358,14 +347,78 @@ PrefabInstance:
       propertyPath: m_Name
       value: ---------- CONVAI ----------
       objectReference: {fileID: 0}
+    - target: {fileID: 4601294216393060716, guid: d48e039e0643fd848beb10345244dda6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6, type: 3}
+      propertyPath: characters.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6, type: 3}
       propertyPath: characters.Array.data[0].characterName
+      value: Joseph Petit
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6, type: 3}
+      propertyPath: characters.Array.data[2].characterName
       value: Amelia
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6, type: 3}
+      propertyPath: characters.Array.data[3].characterName
+      value: Remy Laurent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6, type: 3}
+      propertyPath: characters.Array.data[4].characterName
+      value: Luc Devereux
       objectReference: {fileID: 0}
     - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6, type: 3}
       propertyPath: characters.Array.data[0].characterGameObject
       value: 
-      objectReference: {fileID: 1885372598}
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6, type: 3}
+      propertyPath: characters.Array.data[2].characterGameObject
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6, type: 3}
+      propertyPath: characters.Array.data[3].characterGameObject
+      value: 
+      objectReference: {fileID: 3145805646400593733}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6, type: 3}
+      propertyPath: characters.Array.data[4].characterGameObject
+      value: 
+      objectReference: {fileID: 2974553558400993661}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6, type: 3}
+      propertyPath: characters.Array.data[2].characterTextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6, type: 3}
+      propertyPath: characters.Array.data[2].characterTextColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6, type: 3}
+      propertyPath: characters.Array.data[3].characterTextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6, type: 3}
+      propertyPath: characters.Array.data[3].characterTextColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6, type: 3}
+      propertyPath: characters.Array.data[3].characterTextColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6, type: 3}
+      propertyPath: characters.Array.data[4].characterTextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6, type: 3}
+      propertyPath: characters.Array.data[4].characterTextColor.b
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688953437149733686, guid: d48e039e0643fd848beb10345244dda6, type: 3}
+      propertyPath: characters.Array.data[4].characterTextColor.g
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6134347739156631632, guid: d48e039e0643fd848beb10345244dda6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -411,7 +464,152 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2728381557873022253, guid: d48e039e0643fd848beb10345244dda6, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48e039e0643fd848beb10345244dda6, type: 3}
+--- !u!1001 &2974553558400993660
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1325868172894411875, guid: f6d95967ad32cca40afa4abbfdffa6a9, type: 3}
+      propertyPath: m_Name
+      value: Convai NPC Luc Devereux
+      objectReference: {fileID: 0}
+    - target: {fileID: 4813969798051092703, guid: f6d95967ad32cca40afa4abbfdffa6a9, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4813969798051092703, guid: f6d95967ad32cca40afa4abbfdffa6a9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4813969798051092703, guid: f6d95967ad32cca40afa4abbfdffa6a9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4813969798051092703, guid: f6d95967ad32cca40afa4abbfdffa6a9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4813969798051092703, guid: f6d95967ad32cca40afa4abbfdffa6a9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4813969798051092703, guid: f6d95967ad32cca40afa4abbfdffa6a9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4813969798051092703, guid: f6d95967ad32cca40afa4abbfdffa6a9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4813969798051092703, guid: f6d95967ad32cca40afa4abbfdffa6a9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4813969798051092703, guid: f6d95967ad32cca40afa4abbfdffa6a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4813969798051092703, guid: f6d95967ad32cca40afa4abbfdffa6a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4813969798051092703, guid: f6d95967ad32cca40afa4abbfdffa6a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f6d95967ad32cca40afa4abbfdffa6a9, type: 3}
+--- !u!114 &2974553558400993661 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4127272678205138261, guid: f6d95967ad32cca40afa4abbfdffa6a9, type: 3}
+  m_PrefabInstance: {fileID: 2974553558400993660}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b38e4bc919e1f040ba78aea7472893e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &3145805646400593732
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 415379276860304995, guid: 8f9dea52a53fa8740824314a1ccda67e, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 415379276860304995, guid: 8f9dea52a53fa8740824314a1ccda67e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415379276860304995, guid: 8f9dea52a53fa8740824314a1ccda67e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415379276860304995, guid: 8f9dea52a53fa8740824314a1ccda67e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415379276860304995, guid: 8f9dea52a53fa8740824314a1ccda67e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 415379276860304995, guid: 8f9dea52a53fa8740824314a1ccda67e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415379276860304995, guid: 8f9dea52a53fa8740824314a1ccda67e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415379276860304995, guid: 8f9dea52a53fa8740824314a1ccda67e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415379276860304995, guid: 8f9dea52a53fa8740824314a1ccda67e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415379276860304995, guid: 8f9dea52a53fa8740824314a1ccda67e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415379276860304995, guid: 8f9dea52a53fa8740824314a1ccda67e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388759511969102223, guid: 8f9dea52a53fa8740824314a1ccda67e, type: 3}
+      propertyPath: m_Name
+      value: Convai NPC Remy Laurent
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8f9dea52a53fa8740824314a1ccda67e, type: 3}
+--- !u!114 &3145805646400593733 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7457484100392505792, guid: 8f9dea52a53fa8740824314a1ccda67e, type: 3}
+  m_PrefabInstance: {fileID: 3145805646400593732}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b38e4bc919e1f040ba78aea7472893e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
