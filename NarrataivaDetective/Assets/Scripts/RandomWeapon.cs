@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class RandomWeapon : MonoBehaviour
 {
+    private string CrimeWeapon;
+
     int minRange = 1;
     int maxRange = 3;
     int randomInt = 0;
@@ -36,14 +38,24 @@ public class RandomWeapon : MonoBehaviour
         {
             case 1:
                 gameObjectList[0].SetActive(true);
+                CrimeWeapon = "Knife";
+                
                 break;
             case 2:
                 gameObjectList[1].SetActive(true);
+                CrimeWeapon = "Wire";
                 break;
             case 3:
                 gameObjectList[2].SetActive(true);
+                CrimeWeapon = "Vase";
                 break;
         }
+        Debug.Log(CrimeWeapon);
+    }
+
+    public string CrimeWeaponClass()
+    {
+        return CrimeWeapon;
     }
 
     // Update is called once per frame
