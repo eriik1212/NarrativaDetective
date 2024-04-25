@@ -13,7 +13,7 @@ public class TestifyLogic : MonoBehaviour
     {
         testifyPanelVisibility = false;
 
-        LockCursor();
+        //LockCursor();
 
         testifyPanel.SetActive(testifyPanelVisibility);
         playerUI.SetActive(!testifyPanelVisibility); 
@@ -21,7 +21,7 @@ public class TestifyLogic : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.F1))
         {
             testifyPanelVisibility = !testifyPanelVisibility;
 
@@ -29,10 +29,10 @@ public class TestifyLogic : MonoBehaviour
             playerUI.SetActive(!testifyPanelVisibility);
         }
 
-        if(testifyPanel.activeInHierarchy)
-            UnlockCursor();
-        else
-            LockCursor();
+        //if(testifyPanel.activeInHierarchy)
+        //    UnlockCursor();
+        //else
+        //    LockCursor();
         
     }
 
