@@ -29,11 +29,19 @@ public class TestifyLogic : MonoBehaviour
             playerUI.SetActive(!testifyPanelVisibility);
         }
 
-        //if(testifyPanel.activeInHierarchy)
-        //    UnlockCursor();
-        //else
-        //    LockCursor();
-        
+        if(testifyPanel.activeInHierarchy)
+        {
+            Time.timeScale = 0.0f;
+            UnlockCursor();
+
+        }
+        else
+        {
+            Time.timeScale = 0.0f;
+            LockCursor();
+
+        }
+
     }
 
     private static void LockCursor()
