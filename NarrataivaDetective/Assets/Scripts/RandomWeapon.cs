@@ -43,11 +43,11 @@ public class RandomWeapon : MonoBehaviour
                 break;
             case 2:
                 gameObjectList[1].SetActive(true);
-                CrimeWeapon = "Wire";
+                CrimeWeapon = "Knife";
                 break;
             case 3:
                 gameObjectList[2].SetActive(true);
-                CrimeWeapon = "Vase";
+                CrimeWeapon = "Knife";
                 break;
         }
         Debug.Log(CrimeWeapon);

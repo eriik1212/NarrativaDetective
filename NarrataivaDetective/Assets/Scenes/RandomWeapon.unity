@@ -135,6 +135,8 @@ GameObject:
   - component: {fileID: 801215234}
   - component: {fileID: 801215233}
   - component: {fileID: 801215232}
+  - component: {fileID: 801215236}
+  - component: {fileID: 801215237}
   m_Layer: 0
   m_Name: Wire
   m_TagString: Untagged
@@ -228,6 +230,39 @@ Transform:
   m_Father: {fileID: 1705412738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &801215236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801215231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a34e4b3dc2aa2845b87efc2cc6e8c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &801215237
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801215231}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &832832413
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,6 +275,8 @@ GameObject:
   - component: {fileID: 832832416}
   - component: {fileID: 832832415}
   - component: {fileID: 832832414}
+  - component: {fileID: 832832418}
+  - component: {fileID: 832832419}
   m_Layer: 0
   m_Name: Vase
   m_TagString: Untagged
@@ -333,6 +370,39 @@ Transform:
   m_Father: {fileID: 1705412738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &832832418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832832413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88af6d699c93ba94db65a99463623ea6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &832832419
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832832413}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1705412737
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,6 +684,8 @@ GameObject:
   - component: {fileID: 2121458953}
   - component: {fileID: 2121458952}
   - component: {fileID: 2121458951}
+  - component: {fileID: 2121458955}
+  - component: {fileID: 2121458956}
   m_Layer: 0
   m_Name: Knife
   m_TagString: Untagged
@@ -707,3 +779,36 @@ Transform:
   m_Father: {fileID: 1705412738}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2121458955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121458950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b7999ccd966b442a8f0b27d54220cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &2121458956
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121458950}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 5
+  m_Center: {x: 0, y: 0, z: 0}
