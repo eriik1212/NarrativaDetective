@@ -38,7 +38,7 @@ public class TestifyLogic : MonoBehaviour
         else
         {
             Time.timeScale = 1.0f;
-            LockCursor();
+            //LockCursor();
 
         }
 
