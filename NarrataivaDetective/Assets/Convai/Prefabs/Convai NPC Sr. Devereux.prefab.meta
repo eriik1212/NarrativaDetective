@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:NarrataivaDetective/Assets/Free Stylized Garden Asset.meta
+guid: 9331f20a9fa8a344a967a16468261aa5
+folderAsset: yes
+DefaultImporter:
+========
 guid: a2a52b5d9e90955468ccac4bfdbcb732
 PrefabImporter:
+>>>>>>>> de5e0965dce0f00224e3188da1727913d826fad5:NarrataivaDetective/Assets/Convai/Prefabs/Convai NPC Sr. Devereux.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
