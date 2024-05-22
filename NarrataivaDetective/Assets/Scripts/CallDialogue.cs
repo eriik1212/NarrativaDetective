@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CallDialogue : MonoBehaviour
 {
@@ -19,7 +21,15 @@ public class CallDialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.time >= TimeCounter && i <= textList.Count)
+        if (Input.GetMouseButtonDown(0) && i < textList.Count)
+        {
+
+            textList[i].SetActive(true);
+            TimeCounter = Time.time + TimeBetweenText;
+            i++;
+        }
+
+        if (Time.time >= TimeCounter && i < textList.Count)
         {
             textList[i].SetActive(true);
             TimeCounter = Time.time + TimeBetweenText;
