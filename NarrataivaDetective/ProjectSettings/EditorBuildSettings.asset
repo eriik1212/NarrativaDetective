@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Blockout.unity
     guid: a290bd483310d074683df78ef1fcaf94
+  - enabled: 1
+    path: Assets/Scenes/Introduccion.unity
+    guid: bda0afaa6a7330c41968bf47114174f0
   m_configObjects: {}
